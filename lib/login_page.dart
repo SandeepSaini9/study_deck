@@ -154,7 +154,7 @@ class _LoginPageState extends State<LoginPage> {
                Container(
                  width: 200,
                  height: 50,
-                 child: TextButton(onPressed: (){}, child: Text('Login ', style: TextStyle(fontWeight: FontWeight.w700, fontSize: 18, color: Colors.black),), style: ButtonStyle(
+                 child: TextButton(onPressed: (){}, child: Text('Login ', style: TextStyle(fontWeight: FontWeight.w700, fontSize: 18, color: Colors.white),), style: ButtonStyle(
                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                          RoundedRectangleBorder(
                              borderRadius: BorderRadius.circular(100.0),
