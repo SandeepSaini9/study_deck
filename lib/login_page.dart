@@ -69,9 +69,9 @@ class _LoginPageState extends State<LoginPage> {
                         ]
                       ),
                       child: TextField(
-                        keyboardType: TextInputType.phone,
+                        keyboardType: TextInputType.text,
                         decoration: InputDecoration(
-                            hintText: "Phone Number",
+                            hintText: "Phone Number/Email",
                             prefixIcon: Icon(MdiIcons.phone, color: Colors.deepOrangeAccent,),
                           focusedBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(10),
