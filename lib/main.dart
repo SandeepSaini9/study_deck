@@ -1,10 +1,16 @@
 import 'dart:async';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:study_deck/login_page.dart';
+import 'package:study_deck/signup.dart';
 import 'package:study_deck/welcome_page.dart';
 
-void main() { runApp(MyApp()); }
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+  }
 
 class MyApp extends StatelessWidget {
   @override
